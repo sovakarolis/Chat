@@ -1,0 +1,42 @@
+.user-list {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.user-list li {
+	padding: 10px 11px;
+    margin-bottom: 10px;
+	text-transform: capitalize;
+	background: black;
+	color:white;
+}
+
+.user-list .active {
+	box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+    background: rgba(153, 202, 255, 0.49);
+	color: black;
+
+}
+
+.online {
+	height: 15px;
+	width: 15px;
+	border-radius: 10px;
+	background-color: green;
+	float: right;
+	margin-top: 0.5vh;
+}
+
+.offline {
+	height: 15px;
+	width: 15px;
+	border-radius: 10px;
+	background-color: red;
+	float: right;
+	margin-top: 0.5vh;
+}
+
+.alert {
+	text-align: center !important;
+}
