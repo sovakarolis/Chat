@@ -8,9 +8,9 @@
 	float: left;
 }
 
-.content {	
-    height: 70vh;
-    margin-top: 5vh;
+.content {
+	height: 70vh;
+	margin-top: 5vh;
 }
 
 .chat-content {
@@ -27,4 +27,13 @@
 
 .message-container {
 	height: 100%;
+}
+
+button.logout a:hover {
+	text-decoration: none;
+	color: white;
+}
+button.logout:hover {
+	background-color: green;
+	text-decoration: none;
 }
